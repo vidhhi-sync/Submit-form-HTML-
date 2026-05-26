@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form action="/action.php">
+        <h4>Registration Form</h4>
+        <input type="text" placeholder="Enter Name">
+        <input type="password" placeholder="Enter password">
+        <br><br>
+        <h5>Select class</h5>
+        <label>
+        <input type="radio" value="Class XI" name="class">Class XI
+        </label>
+        <label>
+        <input type="radio" value="Class XII" name="class"> Class XII
+        </label>
+        <br>
+        <h5>Select Stream</h5>
+        <label for="Science">
+            <input type="radio" value="Science" name="stream">Science 
+        </label>
+        <label for="Commerce">
+            <input type="radio" value="Commerce" name="stream">Commerce
+        </label>
+        <label>
+            <input type="radio" value="Arts" name="stream">Arts
+        </label>
+        <br>
+        <h5>Select city</h5>
+        <select name="city">
+            <option value="Delhi">Delhi</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Banglore">Banglore</option>
+        </select>
+        <br><br>
+        <textarea name="feedback" placeholder="Enter feedback"></textarea>
+        <br><br>
+        <input type="submit" value="submit">
+        <br>
+        </form>
+</body>
+</html>
